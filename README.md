@@ -2,7 +2,7 @@
 
 # COMP30019 – Graphics and Interaction
 
-## Workshop 1
+## Workshop 1: Introduction to Unity
 
 <p align="center">
   <img src="Gifs/demo.gif">
@@ -17,7 +17,7 @@
   </a>
 </p>
 
-## Introduction
+### Introduction
 
 In this workshop you will be introduced to Unity, a powerful cross-platform game
 engine which facilitates the construction of rich interactive scenes. You'll
@@ -38,7 +38,7 @@ click
 the list of tracked projects in the same window.
 Now simply click on the project to open it in Unity.
 
-> **Note** <br>
+> **Note**<br>
 > Opening a project in Unity for the first time can take a while, since cached library files need to
 > be generated. However,
 > subsequent loads of the same project should be a lot faster provided that you
@@ -70,7 +70,7 @@ and then back to the scene tab when you click it again to stop the simulation.
 Although the switch is automatic, it is possible to manually switch between
 these at any point.
 
-> **Warning** <br>
+> **Warning**<br>
 > Any changes you make to the scene while the game is running are 
 > __temporary__. A common rookie trap is to manually switch to the `Scene` tab
 > while the game is running, then continuing to work on the project thinking it
@@ -99,7 +99,7 @@ arbitrary compositions of additional components are allowed,
 including an entirely 'empty' object (turns out there's a use for this!). We'll
 examine components in more detail next.
 
-## Inspector panel
+### Inspector panel
 
 Click on the **Top Ball** object, and then look at the `Inspector` (right-hand
 panel)
@@ -115,7 +115,7 @@ C# component specific to this project (more details in the next section).
   <img src="Gifs/LearnComponents.gif">
 </p>
 
-## Scripts
+### Scripts
 
 We can create custom components to attach to `GameObjects` by writing C#
 scripts.
@@ -150,7 +150,7 @@ to this variable,
 we allow its value to be set within the
 Unity interface, and also saved as part of the scene.
 
-> **Note** <br>
+> **Note**<br>
 > If you have used Unity before it's likely you have
 > seen `public` variables used instead of `private` variables with associated
 > `[SerializeField]` attributes. Both methods are valid ways to 'expose' a
@@ -175,7 +175,7 @@ the balls, and run the game again.
   <img src="Gifs/ChangeColor.gif">
 </p>
 
-## Recreate the Scene
+### Recreate the Scene
 
 The best way to learn Unity is to use it. The objective for the remainder of
 this class is to start with a blank scene and recreate the one you explored as
